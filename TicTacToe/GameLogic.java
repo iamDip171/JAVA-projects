@@ -1,6 +1,5 @@
 package Projects.TicTacToe;
 
-import JavaCT.Assignment.A;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -238,7 +237,7 @@ public class GameLogic extends LayoutManager {
         else if ((button[0][0].getText() == "X" && button[0][1].getText() == "X" && button[0][2].getText() == "X" ) ||
                 (button[1][0].getText() == "X" && button[1][1].getText() == "X" && button[1][2].getText() == "X") ||
                 (button[2][0].getText() == "X" && button[2][1].getText() == "X" && button[2][2].getText() == "X") ||
-                (button[0][0].getText() == "X" && button[1][0].getText() == "X" && button[1][2].getText() == "X") ||
+                (button[0][0].getText() == "X" && button[1][0].getText() == "X" && button[2][0].getText() == "X") ||
                 (button[0][1].getText() == "X" && button[1][1].getText() == "X" && button[2][1].getText() == "X") ||
                 (button[0][2].getText() == "X" && button[1][2].getText() == "X" && button[2][2].getText() == "X") ||
                 (button[0][0].getText() == "X" && button[1][1].getText() == "X" && button[2][2].getText() == "X") ||
